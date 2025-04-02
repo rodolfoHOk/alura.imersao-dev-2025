@@ -57,3 +57,32 @@ Nesta aula, você vai:
 - Uso das condicionais else if e else além do if ensinado na aula
 - Uso do loop while não ensinado na aula
 - Uso de function não ensinada na aula
+
+## Aula 3 - Controle o Fluxo do Jogo com Condicionais e Loops
+
+### Introdução
+
+Nesta aula, vamos desenvolver um jogo de Salto no Vidro, utilizando condicionais (if/else) para definir as escolhas do jogador e Math.random() para decidir se o vidro quebra ou não. Também vamos explorar o loop while, permitindo múltiplas rodadas e tornando o jogo mais dinâmico.
+
+Nesta aula, você vai:
+
+- Revisar o uso de if/else.
+- Introdução ao loop while.
+- Construir a lógica do jogo:
+    - O jogador escolhe um vidro para saltar.
+    - O programa usa Math.random() para decidir se o vidro quebra ou não.
+    - Utilizar um loop while para permitir várias rodadas do jogo.
+
+### Diferença em relação a aula
+
+- Uso do editor Visual Studio Code ao invés do CodePen
+- Uso da extensão Live Server no Visual Studio Code para rodar o programa
+
+### Desafios
+
+Deseja ir além? Experimente este desafio:
+
+Apenas 10% dos alunos realmente tentam os desafios. Se você quer se destacar, aceite esse desafio agora e poste seu código no Discord!
+
+- Colocar uma variável do tipo "verdadeiro" ou "falso" (Variáveis Primitivas e Controle de Fluxo) para indicar se venceu ou não. - OK
+- Bloquear a possibilidade do jogador "roubar" colocando um número maior que 3. - OK
