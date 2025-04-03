@@ -75,6 +75,7 @@ function closeModal() {
     modal.classList.remove("open");
     selectCoin.value = "";
     inputValue.value = "";
+    inputValue.placeholder = "Valor em espécie";
     resultText.innerHTML = "";
 }
 

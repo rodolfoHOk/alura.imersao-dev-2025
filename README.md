@@ -6,6 +6,20 @@
 
 - [Notion](https://grupoalura.notion.site/Imers-o-Dev-9-Ed-Guia-de-Mergulho-1a8379bdd09b8000bb73e7eaa6fae4f2)
 
+## Galeria de imagens
+
+### Conversor de moedas
+
+![Conversor de moedas 01](/images/conversor-moedas-01.png)
+
+![Conversor de moedas 02](/images/conversor-moedas-02.png)
+
+![Conversor de moedas 03](/images/conversor-moedas-03.png)
+
+### Outras imagens
+
+![abertura](/images/abertura.png)
+
 ## Aula 01 - Comece a Programar Usando Variáveis e Operações
 
 ### Introdução
