@@ -13,8 +13,55 @@
     <div class="container">
         <div class="content">
             <h2>Pra ganhar é preciso arriscar!</h2>
-            <p> PEDRA, PAPEL ou TESOURA?</p>
-            <button onclick="jogar()">Bora jogar!</button>
+            <p>PEDRA, PAPEL ou TESOURA?</p>
+            <button onclick="openModal()">Bora jogar!</button>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+
+            <h2>PEDRA, PAPEL ou TESOURA?</h2>
+            
+            <p>Escolha sua jogada</p>
+            
+            <radio-group id="choices" class="choices">
+                <div>
+                    <input type="radio" id="rock" name="choice" value="0">
+                    <label for="rock">🤜🏼</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="paper" name="choice" value="1">
+                    <label for="paper">🖐🏼</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="scissors" name="choice" value="2">
+                    <label for="scissors">✌🏼</label>
+                </div>
+            </radio-group>
+            
+            <button id="button-convert" onclick="playGame()">Jogar</button>
+            
+            <div class="result">
+                <h3 id="result">Resultado:</h3>
+
+                <div class="result-content">
+                    <div>
+                        <span>Jogador</span>
+                        <span class="choice-image" id="player-choice"></span>
+                    </div>
+
+                    <span class="vs">x</span>
+
+                    <div>
+                        <span class="choice-image" id="computer-choice"></span>
+                        <span>Computador</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

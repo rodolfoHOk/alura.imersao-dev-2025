@@ -33,7 +33,7 @@ function currencyFormatter(value) {
 
 */
 
-// Código com interface html e css
+/* Código com interface html e css */
 
 const wonsReais = 0.003880;
 const dollarReais = 5.74;
