@@ -12,9 +12,38 @@
   
     <div class="container">
         <div class="content">
-            <h2>Quem ganha, ganha em Wons!</h2>
-            <p> Que tal converter esse valor?</p>
-            <button onclick="conversor()">Bora converter!</button>
+            <h2>Quem ganha, ganha em din din!</h2>
+
+            <p>Que tal converter esse valor?</p>
+
+            <button onclick="openModal()">Bora converter!</button>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+
+            <h2>Conversor de moedas</h2>
+            
+            <p>Selecione a moeda que deseja converter para Reais</p>
+            
+            <select id="coin">
+                <option value="" selected disabled>Selecione a moeda...</option>
+                <option value="won">Won</option>
+                <option value="dollar">Dólar</option>
+                <option value="euro">Euro</option>
+            </select>
+            
+            <input type="number" id="currencyValue" placeholder="Valor em espécie" value="0">
+            
+            <button id="button-convert" onclick="convert()">Converter</button>
+            
+            <div class="result">
+                <h3>Resultado:</h3>
+
+                <p id="result"></p>
+            </div>
         </div>
     </div>
     

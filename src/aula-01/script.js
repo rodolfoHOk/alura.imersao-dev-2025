@@ -1,3 +1,7 @@
+/* aula 01 - Conversor de Moedas */
+
+/* Código da aula mais desafios 
+
 const wonsReais = 0.003880;
 const dollarReais = 5.74;
 const euroReais = 6.19;
@@ -21,6 +25,73 @@ if (coin == 1) {
     alert(`A quantidade de wons ${wonQuantity} convertida para reais é: ${formattedReais}`);
 } else {
     alert("Opção inválida. Tente novamente.");
+}
+
+function currencyFormatter(value) {
+    return value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+}
+
+*/
+
+// Código com interface html e css
+
+const wonsReais = 0.003880;
+const dollarReais = 5.74;
+const euroReais = 6.19;
+
+const selectCoin = document.querySelector("#coin");
+const inputValue = document.querySelector("#currencyValue");
+const resultText = document.querySelector("#result");
+
+selectCoin.addEventListener("change", () => {
+    const coin = selectCoin.value;
+
+    if (coin == "dollar") {
+        inputValue.value = "";
+        inputValue.placeholder = "Quantidade em dólares";
+        resultText.innerHTML = "";
+    } else if (coin == "euro") {
+        inputValue.value = "";
+        inputValue.placeholder = "Quantidade em euros";
+        resultText.innerHTML = "";
+    } else if (coin == "won") {
+        inputValue.value = "";
+        inputValue.placeholder = "Quantidade em wons";
+        resultText.innerHTML = "";
+    }
+});
+
+function openModal() {
+    const mainContent = document.querySelector(".content");
+    mainContent.classList.add("hidden");
+    const modal = document.querySelector(".modal");
+    modal.classList.add("open");
+}
+
+function closeModal() {
+    const mainContent = document.querySelector(".content");
+    mainContent.classList.remove("hidden");
+    const modal = document.querySelector(".modal");
+    modal.classList.remove("open");
+    selectCoin.value = "";
+    inputValue.value = "";
+    resultText.innerHTML = "";
+}
+
+function convert() {
+    const coin = selectCoin.value;
+    const currencyValue = parseFloat(inputValue.value);
+    let reais;
+
+    if (coin == "dollar") {
+        reais = dollarReais * currencyValue;
+    } else if (coin == "euro") {
+        reais = euroReais * currencyValue;
+    } else if (coin == "won") {
+        reais = wonsReais * currencyValue;
+    }
+
+    resultText.innerHTML = currencyFormatter(reais);
 }
 
 function currencyFormatter(value) {
