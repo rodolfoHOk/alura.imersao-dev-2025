@@ -77,6 +77,7 @@ Nesta aula, você vai:
 
 - Uso do editor Visual Studio Code ao invés do CodePen
 - Uso da extensão Live Server no Visual Studio Code para rodar o programa
+- Adicionado uma interface em HTML e CSS ao conversor
 
 ### Desafios
 
@@ -111,6 +112,7 @@ Nesta aula, você vai:
 - Uso das condicionais else if e else além do if ensinado na aula
 - Uso do loop while não ensinado na aula
 - Uso de function não ensinada na aula
+- Adicionado uma interface em HTML e CSS ao jogo
 
 ## Aula 3 - Controle o Fluxo do Jogo com Condicionais e Loops
 
@@ -129,7 +131,9 @@ Nesta aula, você vai:
 
 ### Diferença em relação a aula
 
-v
+- Uso do editor Visual Studio Code ao invés do CodePen
+- Uso da extensão Live Server no Visual Studio Code para rodar o programa
+- Adicionado uma interface em HTML e CSS ao jogo
 
 ### Desafios
 
@@ -158,3 +162,4 @@ Nesta aula, você vai:
 
 - Uso do editor Visual Studio Code ao invés do CodePen
 - Uso da extensão Live Server no Visual Studio Code para rodar o programa
+- Adicionado uma interface em HTML e CSS ao jogo
