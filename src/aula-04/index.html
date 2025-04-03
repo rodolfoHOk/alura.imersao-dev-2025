@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de Won</title>
+    <title>Jogo Cabo de Guerra</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -17,13 +17,40 @@
     </div>
   
     <main class="conteudo-jogo">
-      <div id="container">
-        <h2>Escolha 3 jogadores para seu time:</h2>
-  
-        <p id="informacoesJogador" class="resultado"></p>
-        <p id="informacoesComputador" class="resultado"></p>
-        <button id="resultadoBtn" style="display:none;">Ver Resultado</button>
-        <h1 id="resultadoFinal" class="resultado"></h1>
+      <h2>Escolha 3 heróis para seu time:</h2>
+
+      <div class="input-jogador">
+        <input id="jogador1" name="jogador1" placeholder="Nome do jogador 1" />
+        <button onclick="sort(0)">Auto</button>
+      </div>
+      
+      <div class="input-jogador">
+        <input id="jogador2" name="jogador2" placeholder="Nome do jogador 2" />
+        <button onclick="sort(1)">Auto</button>
+      </div>
+
+      <div class="input-jogador">
+        <input id="jogador3" name="jogador3" placeholder="Nome do jogador 3" />
+        <button onclick="sort(2)">Auto</button>
+      </div>
+
+      <button id="resultadoBtn" onclick="result()">Ver Resultado</button>
+
+      <ul id="informacoesJogador" class="resultado">
+        <li id="jogador1name">Nome herói 1: </li>
+        <li id="jogador2name">Nome herói 2: </li>
+        <li id="jogador3name">Nome herói 3: </li>
+        <li id="forcaJogador">Força time de heróis: </li>
+      </ul>
+
+      <ul id="informacoesComputador" class="resultado">
+        <li id="computador1name">Nome vilão 1: </li>
+        <li id="computador2name">Nome vilão 2: </li>
+        <li id="computador3name">Nome vilão 3: </li>
+        <li id="forcaComputador">Força time de vilões: </li>
+      </ul>
+
+      <h3 id="resultadoFinal" class="resultado">Resultado: </h3>
     </main>
   
   </body>

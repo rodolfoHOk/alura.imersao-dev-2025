@@ -44,6 +44,18 @@
 
 ![Chão de Vidro 06](/images/chao-vidro-06.png)
 
+## Cabo de Guerra
+
+![Cabo de Guerra 01](/images/cabo-guerra-01.png)
+
+![Cabo de Guerra 02](/images/cabo-guerra-02.png)
+
+![Cabo de Guerra 03](/images/cabo-guerra-03.png)
+
+![Cabo de Guerra 04](/images/cabo-guerra-04.png)
+
+![Cabo de Guerra 05](/images/cabo-guerra-05.png)
+
 ### Outras imagens
 
 ![abertura](/images/abertura.png)
