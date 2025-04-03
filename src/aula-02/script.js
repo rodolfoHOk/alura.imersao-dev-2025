@@ -65,6 +65,7 @@ const choices = choicesRadioGroup.querySelectorAll("input[type='radio']");
 let playerChoiceValue = null;
 const playerChoice = document.getElementById("player-choice");
 const computerChoice = document.getElementById("computer-choice");
+const result = document.getElementById("result");
 
 choices.forEach(choice => {
     choice.addEventListener("change", () => {
@@ -90,6 +91,7 @@ function closeModal() {
 }
 
 function clearChoices() {
+    result.innerHTML = "Resultado";
     playerChoice.innerHTML = "";
     computerChoice.innerHTML = "";
     choices.forEach(choice => {
@@ -119,7 +121,6 @@ function playGame() {
         resultValue = "Você perdeu!";
     }
 
-    const result = document.getElementById("result");
     result.innerHTML = resultValue;
 
     choices.forEach(choice => {

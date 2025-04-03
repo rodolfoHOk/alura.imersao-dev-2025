@@ -1,4 +1,8 @@
 /* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
     margin: 0;
@@ -57,4 +61,155 @@ button:hover {
 footer {
     text-align: center;
     padding: 10px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content; 
+    height: fit-content;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    padding: 20px 40px;
+    position: relative;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.modal-content .close {
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal-content h2 {
+    margin: 0;
+    margin-top: 24px;
+}
+
+.modal-content p {
+    margin: 0;
+}
+
+.modal-content .choices {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.modal-content .choices input[type="radio"] {
+    display: none;
+}
+
+.modal-content .choices label {
+    background-color: white;
+    color: black;
+    display: block;
+    width: 6rem;
+    padding: 12px;
+    font-size: 4rem;
+    border-radius: 4px;
+    border: 4px solid white;
+}
+
+.modal-content .choices input[type="radio"]:checked + label {
+    background-color: #1ABC9C;
+}
+
+.modal-content button {
+    background-color: #ff1b7b;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal-content button:hover {
+    background-color: #1ABC9C;
+}
+
+.modal-content .result {
+    background-color: white;
+    width: 400px;
+    padding: 16px 12px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.modal-content .result h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: black;
+}
+
+.modal-content .result .result-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.modal-content .result .result-content div {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.modal-content .result span {
+    margin: 0;
+    font-size: 1rem;
+    color: black;
+}
+
+.modal-content .result .choice-image {
+    margin: 0;
+    width: 4rem;
+    font-size: 4rem;
+}
+
+/* Dynamic apply classes */
+
+.hidden {
+    display: none;
+}
+
+.open {
+    display: block;
 }

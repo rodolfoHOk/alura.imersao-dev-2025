@@ -14,7 +14,56 @@
         <div class="content">
             <h2>Pra ganhar, é preciso coragem!</h2>
             <p>Até mesmo para pisar em um chão feito de vidro</p>
-            <button onclick="jogar()">Bora jogar!</button>
+            <button onclick="openModal()">Bora jogar!</button>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+
+            <h2>Chão feito de vidro</h2>
+
+            <p id="round">Rodada: 1</p>
+            
+            <p>Escolha a ponte de vidro</p>
+            
+            <radio-group id="choices" class="choices">
+                <div>
+                    <input type="radio" id="ponte-1" name="choice" value="1">
+                    <label for="ponte-1">1</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="ponte-2" name="choice" value="2">
+                    <label for="ponte-2">2</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="ponte-3" name="choice" value="3">
+                    <label for="ponte-3">3</label>
+                </div>
+            </radio-group>
+            
+            <button id="button-convert" onclick="playRound()">Jogar Rodada</button>
+            
+            <div class="result">
+                <h3 id="result">Resultado</h3>
+
+                <div class="result-content">
+                    <div>
+                        <span>Escolha</span>
+                        <span class="choice-image" id="player-choice"></span>
+                    </div>
+
+                    <span class="vs">x</span>
+
+                    <div>
+                        <span class="choice-image" id="broken-glass"></span>
+                        <span>Vidro Frágil</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     
