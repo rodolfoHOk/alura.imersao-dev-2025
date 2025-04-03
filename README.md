@@ -117,8 +117,7 @@ Nesta aula, você vai:
 
 ### Diferença em relação a aula
 
-- Uso do editor Visual Studio Code ao invés do CodePen
-- Uso da extensão Live Server no Visual Studio Code para rodar o programa
+v
 
 ### Desafios
 
@@ -128,3 +127,22 @@ Apenas 10% dos alunos realmente tentam os desafios. Se você quer se destacar, a
 
 - Colocar uma variável do tipo "verdadeiro" ou "falso" (Variáveis Primitivas e Controle de Fluxo) para indicar se venceu ou não. - OK
 - Bloquear a possibilidade do jogador "roubar" colocando um número maior que 3. - OK
+
+## Aula 4 - Domine a Lógica com Arrays e Loops
+
+### Introdução
+
+Nesta aula, vamos criar um jogo de Escolha de Time e Disputa no Cabo de Guerra, utilizando arrays para armazenar jogadores e for para percorrer a lista. Também veremos como o computador escolhe um time adversário de forma aleatória e como calcular o time vencedor com base nas escolhas. 
+
+Nesta aula, você vai:
+
+- Revisar o uso do while e entender quando utilizar for no lugar.
+- Utilizar arrays para armazenar os jogadores do time.
+- Iteração sobre o array usando for.
+- Selecionar aleatoriamente o time adversário pelo PC.
+- Calcular o time vencedor com base nas escolhas.
+
+### Diferença em relação a aula
+
+- Uso do editor Visual Studio Code ao invés do CodePen
+- Uso da extensão Live Server no Visual Studio Code para rodar o programa
