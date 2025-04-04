@@ -56,6 +56,14 @@
 
 ![Cabo de Guerra 05](/images/cabo-guerra-05.png)
 
+## Quiz
+
+![Quiz 01](/images/quiz-01.png)
+
+![Quiz 02](/images/quiz-02.png)
+
+![Quiz 03](/images/quiz-03.png)
+
 ### Outras imagens
 
 ![abertura](/images/abertura.png)
