@@ -8,6 +8,12 @@
 
 ## Galeria de imagens
 
+### Homepage
+
+![Main 01](/images/main-01.png)
+
+![Main 02](/images/main-02.png)
+
 ### Conversor de moedas
 
 ![Conversor de moedas 01](/images/conversor-moedas-01.png)
@@ -53,8 +59,6 @@
 ![Cabo de Guerra 03](/images/cabo-guerra-03.png)
 
 ![Cabo de Guerra 04](/images/cabo-guerra-04.png)
-
-![Cabo de Guerra 05](/images/cabo-guerra-05.png)
 
 ## Quiz
 
@@ -188,3 +192,4 @@ Nesta aula, você vai:
 
 - Uso do editor Visual Studio Code ao invés do CodePen
 - Uso da extensão Live Server no Visual Studio Code para rodar o programa
+- Página inicial para rodar todos os projetos
