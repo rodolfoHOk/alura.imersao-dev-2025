@@ -163,3 +163,20 @@ Nesta aula, você vai:
 - Uso do editor Visual Studio Code ao invés do CodePen
 - Uso da extensão Live Server no Visual Studio Code para rodar o programa
 - Adicionado uma interface em HTML e CSS ao jogo
+
+## Aula 5 - Organize e Armazene Dados como uma pessoa Pro
+
+Nesta aula, vamos criar um Quiz Interativo, explorando a personalização com HTML e CSS. Vamos aprender a usar JSON para armazenar perguntas e respostas, além de entender como manipulá-lo no JavaScript. Também veremos como a IA pode ajudar a gerar perguntas para o quiz e faremos os ajustes finais no design.
+
+Nesta aula, você vai:
+
+- Ver o projeto quase finalizado, com destaque para as customizações de CSS e HTML.
+- Entender o conceito de JSON e como usá-lo para armazenar perguntas e respostas.
+- Explorar o uso da IA para gerar perguntas para o quiz.
+- Aprender a manipular JSON no JavaScript.
+- Realizar os ajustes finais do projeto.
+
+### Diferença em relação a aula
+
+- Uso do editor Visual Studio Code ao invés do CodePen
+- Uso da extensão Live Server no Visual Studio Code para rodar o programa
